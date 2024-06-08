@@ -1,0 +1,83 @@
+.c-container{
+    display: grid;
+    margin-left: 240px;
+    height: 100vh;
+  }
+  .c-content {
+    padding: 2rem; /* Adjust padding as needed */
+  }
+  .AddC{
+    
+    padding: 0.5rem 1.25rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .divaddC{
+    
+    text-align: right;
+  }
+  .edit-buttonR {
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-right: 0.25rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .edit-buttonR:hover{
+    background-color: #1d1b31; 
+
+  }
+  .delete-buttonR:hover{
+    background-color: #1d1b31; 
+
+  }
+  .edit-delete-containerR {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+  }
+  .delete-buttonR {
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .cancel-button{
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .delete-button{
+    
+      padding: 0.5rem 1.25rem;
+      font-size: 1rem;
+      background-color: #e60101;
+      color: #ffffff;
+      border: none;
+      border-radius: 2rem;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+    }
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+    }
+  

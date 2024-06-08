@@ -1,0 +1,213 @@
+.Manage-containerM {
+    display: grid;
+    margin-left: 240px;
+    height: 100vh;
+  }
+  .edit-buttonM {
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    background-color: #11101d;
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .edit-buttonM:hover{
+    background-color: #1d1b31; 
+
+  }
+  .approve-button{
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    background-color: #11101d;
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+
+  }
+  .approve-button:hover{
+    background-color: #1d1b31; 
+
+  }
+  .deny-button{
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    background-color: #11101d;
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+
+  }
+  .deny-button:hover{
+    background-color: #1d1b31; 
+
+  }
+  .delete-buttonM:hover{
+    background-color: #1d1b31; 
+
+  }
+  .edit-delete-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+  }
+  .delete-buttonM {
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    background-color: #11101d;
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .popup-inner {
+    width: 400px; /* Adjust width as needed */
+    height: auto;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0px 4px 5px 5px rgba(176, 176, 176, 0.25);
+    padding: 20px; /* Added padding for better spacing */
+  }
+  
+  .popup-inner .SendM {
+    font-size: 20px; /* Adjust font size as needed */
+    margin-bottom: 15px; /* Added margin for better spacing */
+  }
+  
+  .popup-inner form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .popup-inner .input-group {
+    margin-bottom: 15px; /* Added margin for better spacing */
+  }
+  
+  .popup-inner label {
+    font-weight: bold;
+  }
+  
+  .popup-inner input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  .save-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #11101d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 15px;
+  }
+ 
+  
+  .save-button:hover {
+    background-color: #1d1b31;
+  }
+  
+  .SendM{
+    margin-right: 20px;
+
+  }
+  .AddU{
+    
+    padding: 0.5rem 1.25rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    background-color: #11101d;
+    color: #ffffff;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .AddE{
+    
+    padding: 0.5rem 1.25rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .AddE:hover{
+    background-color: #218838; 
+
+  }
+  .AddU:hover{
+    background-color: #1d1b31; 
+
+  }
+  .divadd{
+    
+    text-align: right;
+  }
+  .icon{
+    text-align: right;
+
+  }
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    border-radius: 1.5rem;
+    margin-left: 10px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .highlighted {
+    background-color: yellow;
+  }
+  
+  
+  
+ 
+
+  

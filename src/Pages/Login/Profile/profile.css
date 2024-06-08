@@ -1,0 +1,110 @@
+/* ProfileForm.css */
+.form-container {
+    display: grid;
+    margin-left: 240px;
+    max-width: 4xl;
+    padding: 4rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    position: relative;
+}
+
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-input {
+    font-size: medium;
+    padding-right: 0.25rem;
+    width: 80%;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.form-submit {
+    grid-column: span 2;
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: #11101d;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.form-submit:hover {
+    background-color: #1d1b31;
+}
+
+.edit-button {
+    padding: 0.75rem 1.5rem;
+    /* Adjust padding to make the button smaller */
+    font-size: 1rem;
+    /* Adjust font size for smaller text */
+    background-color: #11101d;
+    color: #ffffff;
+    border: none;
+    border-radius:1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+.edit-button:hover {
+    background-color: #1d1b31;
+}
+.valider-button {
+   
+    padding: 0.75rem 1.5rem;
+    /* Adjust padding to make the button smaller */
+    font-size: 1rem;
+    /* Adjust font size for smaller text */
+    background-color: #11101d;
+    color: #ffffff;
+    border: none;
+    border-radius:1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+.valider-button:hover {
+    background-color: #1d1b31;
+}
+.pdf-button {
+    text-decoration: none; /* Remove underline */
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #db0101;
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .pdf-button:hover {
+    background-color: #b60000; /* Darker shade on hover */
+  }
+
+.button-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5rem;
+    margin-right: 0.5rem;
+    /* Adjust margin as needed */
+}

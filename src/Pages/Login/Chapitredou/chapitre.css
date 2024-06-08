@@ -1,0 +1,8 @@
+.co-container{
+    display: grid;
+    margin-left: 240px;
+    height: 100vh;
+  }
+  .co-content {
+    padding: 2rem; /* Adjust padding as needed */
+  }

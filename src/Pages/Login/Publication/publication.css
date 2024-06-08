@@ -1,0 +1,42 @@
+/* publication.css */
+
+.publication-containerP {
+  display: grid;
+  margin-left: 240px;
+  height: 100vh;
+}
+
+.publication-contentP {
+  padding: 2rem; /* Adjust padding as needed */
+}
+
+.form-titleP {
+  font-size: 2rem; /* Adjust title size */
+  margin-bottom: 1rem; /* Add spacing below the title */
+}
+
+.select-containerP {
+  margin-bottom: 1rem; /* Add spacing below the select container */
+}
+
+/* Style the select element */
+.select-containerP select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #cbd5e0;
+  background-color: #fff;
+  transition: border-color 0.2s ease-in-out;
+}
+
+/* Hover style for the select element */
+.select-containerP select:hover {
+  border-color: #718096;
+}
+
+/* Focus style for the select element */
+.select-containerP select:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
